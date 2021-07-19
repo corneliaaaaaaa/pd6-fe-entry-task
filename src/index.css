@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar a {
+  color: white;
+  display: block;
+  font-size: large;
+  margin: 15px 100px 0px 150px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#home-bg {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-filter: brightness(0.5);
+}
+
+.home {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.pageBigTitle {
+  color: white;
+  display: block;
+  font-size: 2cm;
+  text-align: center;
+  margin: 0px 100px 30px 100px;
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  width: 110px;
+  height: 50px;
+  margin: 50px auto 25px auto;
+  border: 0;
+  background-color: #0085a1;
+  color: #fff;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+/* blog previews / list */
+.blog-list {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.blogTitle {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.83cm;
+}
+
+.blogDetail {
+  margin: 5px auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  font-size: 0.63cm;
+}
+
+.authorAndDate {
+  margin: 10px auto 10px auto;
+  color: rgb(175, 175, 175);
+  font-weight: lighter;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.hr {
+  margin: 30px auto;
+  border: 0;
+  height: 1px;
+  background-color: #d4d4d4;
+  width: 600px;
+  color: #d4d4d4;
+}
+
+/* blog details page */
+#post-bg {
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-filter: brightness(0.5);
+}
+
+.blog-details {
+  width: 600px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.button-in-blog-detail {
+  width: 110px;
+  height: 50px;
+  margin: 50px 5px 25px 0px;
+  border: 0;
+  color: #fff;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+#edit-button {
+  background-color: #6c757d;
+}
+
+#delete-button {
+  background-color: #dc3545;
+}
+
+.blog-details h1 {
+  color: white;
+  display: block;
+  font-size: 1.2cm;
+  margin: 0px 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.blog-details h4 {
+  color: white;
+  display: block;
+  font-size: medium;
+  margin: 5px 0px;
+  font-weight: 50;
+  font-family: "Noto Serif", serif;
+  font-style: italic;
+}
+
+.p {
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-size: larger;
+  line-height: 30px;
+  color: rgb(130, 130, 130);
+}
+
+.comment-list {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.comment-preview {
+  font-family: "Open Sans", sans-serif;
+  margin: 5px auto;
+  padding: 5px 10px;
+  color: black;
+  border-color: #c9c9c9;
+  border-width: thin;
+  border-style: solid;
+}
+
+#account {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#message {
+  color: rgb(120, 120, 120);
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  margin: 15px auto 5px auto;
+  font-weight: 100;
+}
+
+.comment-list form {
+  margin: 50px auto;
+}
+
+.comment-list label {
+  color: rgb(175, 175, 175);
+  font-size: large;
+  margin: 0 auto;
+  font-family: "Noto Serif", serif;
+}
+
+.comment-list input,
+.comment-list textarea {
+  width: 100%;
+  padding: 6px 0px;
+  margin: 0px auto 20px auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Noto Serif", serif;
+}
+
+#name-input {
+  width: 150px;
+  margin-left: 0;
+}
+
+/* create new blog form */
+#add-bg {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-filter: brightness(0.5);
+}
+
+.create {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.create h1 {
+  color: white;
+  display: block;
+  font-size: 2cm;
+  text-align: center;
+  margin: 0px 100px 120px 100px;
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.create label {
+  color: rgb(155, 155, 155);
+  font-size: large;
+  margin: 0 auto;
+  font-family: "Noto Serif", serif;
+}
+
+.create input,
+.create textarea {
+  width: 100%;
+  padding: 6px 0px;
+  margin: 0px auto 20px auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Noto Serif", serif;
+}
+
+.create textarea {
+  height: 175px;
+}
+
+.send {
+  width: 100px;
+  height: 50px;
+  margin: 0px auto;
+  border: 0;
+  background-color: #0085a1;
+  color: #fff;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+/* edit */
+#edit-bg {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-filter: brightness(0.5);
+}
+
+.edit {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.edit h1 {
+  color: white;
+  display: block;
+  font-size: 2cm;
+  text-align: center;
+  margin: 0px 100px 120px 100px;
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.edit label {
+  color: rgb(155, 155, 155);
+  font-size: medium;
+  margin: 0 auto;
+  font-family: "Noto Serif", serif;
+}
+
+.edit input,
+.edit textarea {
+  width: 100%;
+  padding: 6px 0px;
+  margin: 0px auto 20px auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  font-family: "Noto Serif", serif;
+}
+
+.edit textarea {
+  height: 175px;
+}
+
+.send {
+  width: 100px;
+  height: 50px;
+  margin: 0px auto;
+  border: 0;
+  background-color: #0085a1;
+  color: #fff;
+  font-size: small;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
